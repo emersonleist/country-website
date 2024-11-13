@@ -1,0 +1,126 @@
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(20,20,20);
+    color: #d1d1d1;
+}
+
+
+img {
+    width: 10rem;
+    
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+a:visited { 
+    /* color: rgb(33, 129, 108); */
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    outline: 2px solid;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 2px solid;
+}
+
+.header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10% auto;
+    min-width: 10rem;
+}
+
+.site-header {
+    display: flex;
+    position: sticky;
+    z-index: 20;
+    top: 0;
+    margin: 1rem 0;
+    padding: 1rem;
+    flex-direction: column;
+    min-width: 50rem;
+    background-color: rgb(20, 20, 20);
+}
+
+.site-nav {
+    display: inline-block;
+    padding: 0;
+    z-index: 30;
+    min-width: 50rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    min-width: 50rem;
+}
+
+.nav-links li {
+    display: flex;
+    background-color: #d1d1d1;
+    margin-top: .3rem;
+    max-width: 80rem;
+    justify-content: center;
+    padding: .5rem 1rem;
+}
+
+.banner {
+    display: block;
+    height: 50rem;
+}
+
+.title {
+    display: inline-flex;
+    font-size: 10rem;
+    position: relative;
+    top: 2rem;
+    padding-top: 0;
+    z-index: 10;
+    margin: 0 10rem;
+}
+
+.banner video {
+    width: 100%;
+    max-width: 80rem;
+    min-width: 50rem;
+    top: -20rem;
+    position: relative;
+}
